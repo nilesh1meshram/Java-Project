@@ -14,3 +14,5 @@
         repo: https://github.com/prafulitankar/java-real-time-project.git
         dest: /opt/java-real-time-project
         version: main  # or any branch/tag
+        # Above code clone the repo
+        update: yes # To pull changes from git remote repo
