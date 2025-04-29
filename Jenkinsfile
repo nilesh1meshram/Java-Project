@@ -8,7 +8,7 @@ pipeline {
     environment {
         DOCKER_CREDENTIALS_ID = 'dockerhub' // Jenkins credentials ID for Docker Hub
         DOCKER_IMAGE_NAME = 'stepstech/devops-weekend'
-        DOCKER_TAG = 'Revision-1.7' // You can use versioning or a unique tag as needed
+        DOCKER_TAG = 'latest' // You can use versioning or a unique tag as needed
         //DOCKER_HOST = '172.31.72.40'
         registry = "devops-weekend"
         CONTAINER_NAME = "webapp-${env.BUILD_ID}"
