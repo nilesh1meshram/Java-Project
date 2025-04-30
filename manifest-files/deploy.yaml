@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: cont1
-        image: lerndevops/samples:kubeserve-v1
+        image: nginx
         ports:
         - containerPort: 80
