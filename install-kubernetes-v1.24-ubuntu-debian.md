@@ -22,7 +22,7 @@ sudo chmod 755 /tmp/installK8S.sh
 sudo bash /tmp/installK8S.sh
 
 #Flush Iptables Rules
-iptables -F
+sudo iptables -F
 
 # Validate 
 
@@ -40,7 +40,9 @@ iptables -F
    sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
    sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
-   ## install networking driver -- Weave/flannel/canal/calico etc... 
+   ## install networking driver -- Weave/flannel/canal/calico etc...
+
+   https://kubernetes.io/docs/concepts/cluster-administration/addons/
 
    ## below installs calico networking driver 
     
