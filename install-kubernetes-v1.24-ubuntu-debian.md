@@ -1,5 +1,7 @@
 # Install Kubernetes Using Script
 
+https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
+
 ### `Step1: On Master Node Only`
 ```
 ## Install Docker
