@@ -24,10 +24,10 @@ sql dump file:
 
 # Kubernetes Integration:
 
-    Install Plugins , Note: kubernetes-cd need to Install Manually
-    Download the Plugins Link : https://github.com/prafulitankar/Java-Project/blob/main/kubernetes-cd.hpi
-    Jenkins Server : Manage Jenkins--> plugins --> Advance Setting --> Browse the Downloaded Plugins --> Install
-    Jenkins --> Kubernetes Integration : After Installation of kubernetes-cd you find the Kubernetes Configuration (kubeconfig) inside        the credentials mention id and description --> kubeconfig option : select enter directly option (Go to K8s Master run cd ~; cd .kube      ; cat config) copy all the content from config file and paste into kubeconfig section
-    uplod deploy.yaml in github repository
+- Install Plugins , Note: kubernetes-cd need to Install Manually
+- Download the Plugins Link : https://github.com/prafulitankar/Java-Project/blob/main/kubernetes-cd.hpi
+- Jenkins Server : Manage Jenkins--> plugins --> Advance Setting --> Browse the Downloaded Plugins --> Install Plugin
+- Jenkins and  Kubernetes Integration Steps : After Installation of kubernetes-cd you find the Kubernetes Configuration (kubeconfig)        inside the credentials mention id and description --> kubeconfig option : select enter directly option (Go to K8s Master run cd ~; cd     .kube ; cat config) copy all the content from config file and paste into kubeconfig section
+- uplod deploy.yaml in github repository
 
 
