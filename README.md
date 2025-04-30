@@ -22,7 +22,7 @@ sql dump file:
 - db_backup.sql file is a mysql dump file.we have to import this dump to mysql db server
 - > mysql -u <user_name> -p accounts < db_backup.sql
 
-#Kubernetes Integration:
+# Kubernetes Integration:
 
     Install Plugins , Note: kubernetes-cd need to Install Manually
     Download the Plugins Link : https://github.com/prafulitankar/Java-Project/blob/main/kubernetes-cd.hpi
